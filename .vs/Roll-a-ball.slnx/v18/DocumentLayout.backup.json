@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mateus61615756\\Roll-a-ball\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\mateus61615756\\roll-a-ball\\assets\\script\\gerenciadordojogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gerenciadordojogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\mateus61615756\\roll-a-ball\\assets\\script\\coletavel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\coletavel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\mateus61615756\\roll-a-ball\\assets\\script\\playercontrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mateus61615756\\Roll-a-ball\\Assets\\script\\camera follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\script\\camera follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "playercontrole.cs",
+              "DocumentMoniker": "C:\\Users\\mateus61615756\\Roll-a-ball\\Assets\\script\\playercontrole.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\playercontrole.cs",
+              "ToolTip": "C:\\Users\\mateus61615756\\Roll-a-ball\\Assets\\script\\playercontrole.cs",
+              "RelativeToolTip": "Assets\\script\\playercontrole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T19:45:47.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "gerenciadordojogo.cs",
+              "DocumentMoniker": "C:\\Users\\mateus61615756\\Roll-a-ball\\Assets\\script\\gerenciadordojogo.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\gerenciadordojogo.cs",
+              "ToolTip": "C:\\Users\\mateus61615756\\Roll-a-ball\\Assets\\script\\gerenciadordojogo.cs",
+              "RelativeToolTip": "Assets\\script\\gerenciadordojogo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T19:30:11.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "coletavel.cs",
+              "DocumentMoniker": "C:\\Users\\mateus61615756\\Roll-a-ball\\Assets\\script\\coletavel.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\coletavel.cs",
+              "ToolTip": "C:\\Users\\mateus61615756\\Roll-a-ball\\Assets\\script\\coletavel.cs",
+              "RelativeToolTip": "Assets\\script\\coletavel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T18:21:22.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "camera follow.cs",
+              "DocumentMoniker": "C:\\Users\\mateus61615756\\Roll-a-ball\\Assets\\script\\camera follow.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\camera follow.cs",
+              "ToolTip": "C:\\Users\\mateus61615756\\Roll-a-ball\\Assets\\script\\camera follow.cs",
+              "RelativeToolTip": "Assets\\script\\camera follow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T17:44:05.115Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

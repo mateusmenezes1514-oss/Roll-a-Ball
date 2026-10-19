@@ -1,0 +1,504 @@
+[UnityConnectServicesConfig] Local config successfully read: "C:/ProgramData/Unity/config/services-config.json"
+[UnityConnectServicesConfig] Service configuration:
+    "servicesConfigBaseUrl": "",
+    "disableServicesWindow": false,
+    "disableUserLogin": false,
+    "entitlementCacheTimeoutInSeconds": 60,
+    "clientConnectTimeoutSec": 60,
+    "clientHandshakeTimeoutSec": 30,
+    "clientResolveEntitlementsTimeoutSec": 30,
+    "clientUpdateLicenseTimeoutSec": 30,
+    "licensingServiceBaseUrl": "",
+    "enableProxyAutoconfig": "false"
+
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.1f1 (0d9463e84828) revision 889955'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mateus61615756" at "2026-10-19T20:23:54.5412859Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'pt' Physical Memory: 15826 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-19T20:23:54Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.1f1\Editor\Unity.exe
+-projectpath
+C:\Users\mateus61615756\Roll-a-ball
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-mateus61615756
+-hubSessionId
+60b9d20d-1040-43e1-89f0-82fb442ee0c1
+Successfully changed project path to: C:\Users\mateus61615756\Roll-a-ball
+C:/Users/mateus61615756/Roll-a-ball
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [29172]  Target information:
+
+Player connection [29172]  * "[IP] 192.168.56.1 [Port] 55504 [Flags] 2 [Guid] 3006256459 [EditorId] 3006256459 [Version] 1048832 [Id] WindowsEditor(7,L21002-821592) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29172]  * "[IP] 10.29.121.6 [Port] 55504 [Flags] 2 [Guid] 3006256459 [EditorId] 3006256459 [Version] 1048832 [Id] WindowsEditor(7,L21002-821592) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29172] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29172] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-33372" after 0.0 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-mateus61615756"
+[Licensing::IpcConnector] LicenseClient-mateus61615756 channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-mateus61615756-6000.5.1 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 17208)
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-mateus61615756-6000.5.1, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mateus61615756-6000.5.1" at "2026-10-19T20:24:00.4008183Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17208, path: "C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              fe72beef440a4f2085c3b577e434aab0
+  Correlation Id:          f0b88b81ec07847b567f87a56f3f819a
+  External correlation Id: 7506273895784057485
+  Machine Id:              4foQ9qst1g5w6fw5YLrWSD67KT8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mateus61615756-6000.5.1" (connect: 1.94s, validation: 0.21s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mateus61615756-6000.5.1-notifications" at "2026-10-19T20:24:00.6265582Z"
+[Licensing::Module] Connected to LicensingClient (PId: 17208, launch time: 0.01, total connection time: 2.16s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: E4-UXFV-AZZG-E88H-3YUN-XXXX
+  Product: Unity Education
+  Type: ULF
+  Expiration: 2027-03-21T01:26:50Z
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 6.18s
+[Licensing::Module] Licensing is initialized (took 5.69s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 1 unused hashed content files
+Initialize engine version: 6000.5.1f1 (0d9463e84828)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mateus61615756/Roll-a-ball/Assets
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA RTX 2000 Ada Generation
+[D3D12 Device Filter] Driver Version: 32.0.15.9671
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 16118 MB
+[D3D12 Device Filter] Processor Count: 20
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA RTX 2000 Ada Generation (ID=0x28b0)
+    Vendor:          NVIDIA
+    VRAM:            16118 MB
+    App VRAM Budget: 15350 MB
+    Driver:          32.0.15.9671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004891 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.313 seconds
+Domain Reload Profiling: 1316ms
+	BeginReloadAssembly (331ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (3ms)
+	RebuildNativeTypeToScriptingClass (147ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (313ms)
+		AnalyzeDomain (358ms)
+			TypeCache.Refresh (357ms)
+				TypeCache.ScanAssembly (327ms)
+	FinalizeReload (316ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (79ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 51 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@2.12.4 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e)
+    com.unity.inputsystem@1.19.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83)
+    com.unity.timeline@1.8.12 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.11 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.visualscripting@8bed5ad90189)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.editorcoroutines@1.1.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.editorcoroutines@87a15ed012c2)
+    com.unity.performance.profile-analyzer@1.4.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.performance.profile-analyzer@2bb26871883c)
+    com.unity.testtools.codecoverage@1.3.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.testtools.codecoverage@19a841221620)
+    com.unity.settings-manager@2.1.1 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86)
+  Built-in packages:
+    com.unity.feature.development@1.0.2 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.feature.development@767aadbc6eb7)
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.ugui@2.5.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.ugui@4f9b15fd1386)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.test-framework@1.7.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.test-framework@f3e6c9a02477)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\mateus61615756\Roll-a-ball\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.17 seconds
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\mateus61615756\Roll-a-ball
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 81.3422ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.1f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/mateus61615756/Roll-a-ball
+ExitCode: 0 Duration: 3s506ms
+[400/484    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+[409/484    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb
+[411/484    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb
+[412/484    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+[413/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb
+[414/484    0s] CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb
+[415/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.pdb
+[416/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.DocCodeExamples.dll
+[417/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.pdb
+[418/484    0s] CopyFiles Library/ScriptAssemblies/Unity.Timeline.dll
+[419/484    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll
+[420/484    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+[421/484    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll
+[422/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+[423/484    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+[424/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+[425/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.pdb
+[426/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.pdb
+[427/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.pdb
+[428/484    0s] CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+[429/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.pdb
+[430/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.pdb
+[431/484    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.TestFramework.pdb
+[432/484    0s] CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.Entities.pdb
+[433/484    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.DocCodeSamples.pdb
+[434/484    0s] CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+[435/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.DocCodeExamples.pdb
+[436/484    0s] CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.Entities.dll
+[437/484    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+[438/484    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.DocCodeSamples.dll
+[439/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+[440/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.pdb
+[441/484    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+[442/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+[443/484    0s] CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+[444/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+[445/484    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.Analytics.pdb
+[446/484    0s] CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb
+[447/484    0s] CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.pdb
+[448/484    0s] CopyFiles Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.004.dll
+[449/484    0s] CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll
+[450/484    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll
+[451/484    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.Analytics.dll
+[452/484    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.dll
+[453/484    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.ForUI.pdb
+[454/484    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+[455/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+[456/484    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll
+[457/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+[458/484    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.pdb
+[459/484    0s] CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.pdb
+[460/484    0s] CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+[461/484    0s] CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb
+[462/484    0s] CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+[463/484    0s] CopyFiles Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.pdb
+[464/484    0s] CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+[465/484    0s] CopyFiles Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.004.pdb
+[466/484    0s] CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.pdb
+[467/484    0s] CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.dll
+[468/484    0s] CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.pdb
+[469/484    0s] CopyFiles Library/ScriptAssemblies/Unity.Timeline.pdb
+[470/484    0s] CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+[471/484    0s] CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.pdb
+[472/484    0s] CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+[473/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+[474/484    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+[475/484    0s] CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.dll
+[476/484    0s] CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.dll
+[477/484    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+[478/484    0s] CopyFiles Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+[479/484    0s] CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+[480/484    0s] CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+[481/484    3s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[482/484    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[483/484    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (3.43 seconds), 75 items updated, 484 evaluated
+AssetDatabase: script compilation time: 5.136231s
+Begin MonoManager ReloadAssembly
+Total cache size 192847024
+Total cache size after purge 192847024, took 00:00:00.2429625
+Refreshing native plugins compatible for Editor in 28.00 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.489 seconds
+Domain Reload Profiling: 1514ms
+	BeginReloadAssembly (395ms)
+		DisableScriptedObjects (37ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (106ms)
+	LoadAllAssembliesAndSetupDomain (505ms)
+		LoadAssemblies (558ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (122ms)
+			BuildScriptInfoCaches (25ms)
+	FinalizeReload (490ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Starting new worker id: 0 with log in C:/Users/mateus61615756/Roll-a-ball/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=d814420e1201cf046984bcc480524a98): Total: 7.970 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1459 ms
+		Asset DB Callback time: managed=15 ms, native=184 ms
+		Scripting: domain reloads=1, domain reload time=1149 ms, compile time=5141 ms, other=21 ms
+		Project Asset Count: scripts=816, non-scripts=1054
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 191.899ms
+	ApplyChangesToAssetFolders: 1.069ms
+	Scan: 123.615ms
+	Collect global state as custom dependencies: 0.914ms
+	CategorizeScriptCompilationAssets: 470.588ms
+	ProcessAssetsWithTransientArtifactChanges: 39.157ms
+	CategorizeAssets: 11.551ms
+	CompileScripts: 5140.590ms
+	ImportOutOfDateAssets: 564.079ms (529.625ms without children)
+		UnloadImportedAssets: 0.112ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.189ms
+		ImportSchedulerStart: 34.150ms
+	PostProcessAllAssets: 15.444ms
+		MonoPostProcessAllAssets: 15.383ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.912ms
+			SyncVS.PostprocessSyncProject 3.103ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.552ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.228ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.193ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.167ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.126ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.107ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.058ms
+	UnloadStreamsBegin: 1.958ms
+	GenerateScriptTypeHashes: 1.165ms
+	GenerateScriptTypeSerializationHashes: 2.510ms
+	Untracked: 1380.378ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+[UnityConnectServicesConfig] Local config successfully read: "C:/ProgramData/Unity/config/services-config.json"
+[UnityConnectServicesConfig] Service configuration:
+    "servicesConfigBaseUrl": "",
+    "disableServicesWindow": false,
+    "disableUserLogin": false,
+    "entitlementCacheTimeoutInSeconds": 60,
+    "clientConnectTimeoutSec": 60,
+    "clientHandshakeTimeoutSec": 30,
+    "clientResolveEntitlementsTimeoutSec": 30,
+    "clientUpdateLicenseTimeoutSec": 30,
+    "licensingServiceBaseUrl": "",
+    "enableProxyAutoconfig": "false"
+
+Scanning for USB devices : 2.654ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Roll-a-ball
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/projeto.unity'
+	Deserialize:            18.129 ms
+	Integration:            14.093 ms
+	Integration of assets:  0.023 ms
+	Thread Wait Time:       0.785 ms
+	Total Operation Time:   33.030 ms
+Unloading 4202 unused Assets / (2.0 MB). Loaded Objects now: 5000.
+Memory consumption went from 308.6 MB to 306.5 MB.
+Total: 7.274500 ms (FindLiveObjects: 0.424200 ms CreateObjectMapping: 1.428100 ms MarkObjects: 3.991200 ms  DeleteObjects: 1.428500 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\mateus61615756\Roll-a-ball\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/mateus61615756/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+[Project] Loading completed in 19.213 seconds
+	Project init time: 				18.039 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		5.711 seconds
+		Asset Database init time: 		0.521 seconds
+		Global illumination init time: 	0.029 seconds
+		Assemblies load time: 			1.451 seconds
+		Unity extensions init time: 	0.014 seconds
+		Asset Database refresh time: 	7.970 seconds
+	Scene opening time: 			0.927 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792441453731,"processId":33372,"projectLoad":19.2130828,"projectInit":18.0391263,"templateInit":0.0,"packageManagerInit":5.7107559,"assetDatabaseInit":0.5214406,"globalIlluminationInit":0.0287596,"assembliesLoad":1.4508074,"unityExtensionsInit":0.0140323,"assetDatabaseRefresh":7.9702879,"sceneOpening":0.9271074}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792441453731,"processId":33372,"editorVersion":"6000.5.1f1 (0d9463e84828)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Worker ready: AssetImportWorkerHW0 0
+Asset Pipeline Refresh (id=07766b764468aa241b26506d7c6d1d45): Total: 0.080 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[UnityConnectServicesConfig] Service configuration:
+    "servicesConfigBaseUrl": "",
+    "disableServicesWindow": false,
+    "disableUserLogin": false,
+    "entitlementCacheTimeoutInSeconds": 60,
+    "clientConnectTimeoutSec": 60,
+    "clientHandshakeTimeoutSec": 30,
+    "clientResolveEntitlementsTimeoutSec": 30,
+    "clientUpdateLicenseTimeoutSec": 30,
+    "licensingServiceBaseUrl": "",
+    "enableProxyAutoconfig": "false"
+
+[Licensing::Client] Successfully resolved entitlement details
+Created GICache directory at C:/Users/mateus61615756/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.027s, timestamps: [21.671 - 21.698]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=5911b0319c5c1be4288ea7f10d8b2278): Total: 0.013 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 9433; Successful remaps: 2
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\mateus61615756\Roll-a-ball\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/mateus61615756/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-mateus61615756-6000.5.1-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-mateus61615756-6000.5.1 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Shut down.
+abort_threads: Failed aborting id: 0000000000006E4C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000008A4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000006E4C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000008A4, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 5344
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792441459452,"processId":33372,"allocatedMemory":48207168,"memoryLabels":[{"Default":195118},{"Permanent":15516},{"NewDelete":64893},{"Thread":4206712},{"Manager":35752},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":855656},{"Material":24},{"GfxDevice":61400},{"GfxThread":4608},{"Animation":952},{"Audio":1544},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":155656},{"Input":45280},{"JobScheduler":256},{"TextLib":27414},{"Mono":48},{"ScriptingNativeRuntime":674964},{"BaseObject":1675657},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":6982},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":33398},{"StaticString":3808},{"Utility":2674466},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":14869},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":15016},{"WebRequest":6358},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33043756},{"Camera":49},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":915032},{"CoreStats":13688},{"Identifiers":13536},{"Gui":267736},{"EditorUtility":196743},{"VersionControl":8},{"Undo":931},{"AssetDatabase":2485833},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":34433},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":220},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2904},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
